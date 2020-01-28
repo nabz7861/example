@@ -216,7 +216,7 @@ var games = [
 		github: 'github.com/karanganesan/Lost_in_Metaverse'
 	},
 		{
-		slug: 'lost-in-metaverse',
+		slug: 'course2',
 		name: 'Lost in Metaverse',
 		author: 'Karan Ganesan',
 		twitter: 'karanganesan',
@@ -224,7 +224,7 @@ var games = [
 		github: 'github.com/karanganesan/Lost_in_Metaverse'
 	},
 	{
-		slug: 'emma-3d',
+		slug: 'course3',
 		name: 'Emma-3D',
 		author: 'Prateek Roushan',
 		twitter: '',
