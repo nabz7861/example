@@ -208,20 +208,20 @@ var games = [
 		github: 'github.com/gurumukhi/13kGiveSpaceGame'
 	},
 	{
-		slug: 'lost-in-metaverse',
-		name: 'Lost in Metaverse',
+		slug: 'course1',
+		name: 'course1',
 		author: 'Karan Ganesan',
 		twitter: 'karanganesan',
 		website: 'linkedin.com/in/karanganesan',
-		github: 'github.com/karanganesan/Lost_in_Metaverse'
+		github: 'github.com/karanganesan/course1'
 	},
 		{
-		slug: 'lost-in-metaverse',
-		name: 'Lost in Metaverse',
+		slug: 'course2',
+		name: 'course2',
 		author: 'Karan Ganesan',
 		twitter: 'karanganesan',
 		website: 'linkedin.com/in/karanganesan',
-		github: 'github.com/karanganesan/Lost_in_Metaverse'
+		github: 'github.com/karanganesan/course1'
 	},
 	{
 		slug: 'emma-3d',
