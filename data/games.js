@@ -217,7 +217,7 @@ var games = [
 	},
 		{
 		slug: 'course2',
-		name: 'Lost in Metaverse',
+		name: 'course2',
 		author: 'Karan Ganesan',
 		twitter: 'karanganesan',
 		website: 'linkedin.com/in/karanganesan',
