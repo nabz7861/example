@@ -168,7 +168,7 @@ var games = [
 		github: 'github.com/gabboraron/prison'
 	},
 	{
-		slug: 'course4',
+		slug: 'debriss',
 		name: 'DebrISS',
 		author: 'Kovolmany',
 		twitter: '',
@@ -176,32 +176,32 @@ var games = [
 		github: 'github.com/gabboraron/iss'
 	},
 	{
-		slug: 'course7',
-		name: 'course7',
+		slug: 'vr-racing',
+		name: 'VR Racing',
 		author: 'Vedansh Bhartia and Kartikey Pandey',
 		twitter: '',
 		website: '',
 		github: 'github.com/vedanshbhartia/vr_racing'
 	},
 	{
-		slug: 'course6',
-		name: 'course6',
+		slug: 'a-box-invaders',
+		name: 'A-box Invaders',
 		author: 'Felipe Do E. Santo',
 		twitter: 'felipez3r0',
 		website: 'hardcodigo.com.br',
 		github: 'github.com/felipez3r0/a-box-invaders'
 	},
 	{
-		slug: 'course5',
-		name: 'course5',
+		slug: 'world-lost',
+		name: 'World Lost',
 		author: 'Ms. K. Bhuvana Meenakshi',
 		twitter: 'bhuvanakotees1',
 		website: 'bhuvanameenakshik.wixsite.com/bhuvanameenakshi',
 		github: 'github.com/bhuvanameenakshi/World_Lost'
 	},
 	{
-		slug: 'course4',
-		name: 'course4',
+		slug: 'give-space',
+		name: 'Give Space',
 		author: 'Ram',
 		twitter: 'ram_gurumukhi',
 		website: 'gurumukhi.wordpress.com',
@@ -213,19 +213,19 @@ var games = [
 		author: 'Karan Ganesan',
 		twitter: 'karanganesan',
 		website: 'linkedin.com/in/karanganesan',
-		github: 'github.com/karanganesan/course1'
+		github: 'github.com/karanganesan/Lost_in_Metaverse'
 	},
 		{
-		slug: 'course2',
-		name: 'course2',
+		slug: 'lost-in-metaverse',
+		name: 'Lost in Metaverse',
 		author: 'Karan Ganesan',
 		twitter: 'karanganesan',
 		website: 'linkedin.com/in/karanganesan',
-		github: 'github.com/karanganesan/course1'
+		github: 'github.com/karanganesan/Lost_in_Metaverse'
 	},
 	{
-		slug: 'course3',
-		name: 'course3',
+		slug: 'emma-3d',
+		name: 'Emma-3D',
 		author: 'Prateek Roushan',
 		twitter: '',
 		website: '',
