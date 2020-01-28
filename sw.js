@@ -3,7 +3,7 @@ self.importScripts('data/games.js');
 // Files to cache
 var cacheName = 'js13kPWA-v1';
 var appShellFiles = [
-  '/',
+  '/example',
   '/index.html',
   '/app.js',
   '/style.css',
