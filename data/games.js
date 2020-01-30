@@ -2,9 +2,9 @@ var games = [
 	{
 		slug: 'course1',
 		name: 'course1',
-		price: 'Zosia and Bartek',
+		price: '£3',
 		topic: 'math',
-		website: '',
+		rating: '5',
 		github: 'github.com/bartaz/lost-in-cyberspace'
 	},
 	{
@@ -12,7 +12,7 @@ var games = [
 		name: 'course2',
 		price: '£3',
 		topic: 'math',
-		website: 'github.com/Platane',
+		rating: '5',
 		github: 'github.com/Platane/js13k-2017'
 	},
 	{
@@ -20,7 +20,7 @@ var games = [
 		name: 'course3',
 		price: '£3',
 		topic: 'math',
-		website: 'maryknize.com',
+		rating: '5',
 		github: 'github.com/captainpainway/coconutty'
 	},
 	{
@@ -28,7 +28,7 @@ var games = [
 		name: 'course4',
 		price: '£3',
 		topic: 'math',
-		website: 'marcguinea.com',
+		rating: '5',
 		github: 'github.com/mguinea/lost-pacman'
 	},
 	{
@@ -36,7 +36,7 @@ var games = [
 		name: 'course5',
 		price: '£3',
 		topic: 'math',
-		website: 'bold-it.com',
+		rating: '5',
 		github: 'github.com/BoldBigflank/js13k-polyhedron'
 	},
 	{
@@ -44,7 +44,7 @@ var games = [
 		name: 'course6',
 		price: '£3',
 		topic: 'math',
-		website: '',
+		rating: '5',
 		github: 'github.com/madmarcel/js13k2017'
 	},
 	{
@@ -52,7 +52,7 @@ var games = [
 		name: 'course7',
 		price: '£3',
 		topic: 'math',
-		website: 'timmykokke.com',
+		rating: '5',
 		github: 'github.com/sorskoot/js13kgames_2017_Lost'
 	},
 	{
@@ -60,7 +60,7 @@ var games = [
 		name: 'course8',
 		price: '£3',
 		topic: 'math',
-		website: 'github.com/nylki',
+		rating: '5',
 		github: 'github.com/nylki/shifted-dimensions'
 	},
 	{
@@ -68,7 +68,7 @@ var games = [
 		name: 'course9',
 		price: '£3',
 		topic: 'math',
-		website: '',
+		rating: '5',
 		github: 'github.com/theProgrammerJack/js13k2017'
 	},
 	
@@ -77,7 +77,7 @@ var games = [
 		name: 'course10',
 		price: '£3',
 		topic: 'math',
-		website: 'linkedin.com/in/karanganesan',
+		rating: '5',
 		github: 'github.com/karanganesan/Lost_in_Metaverse'
 	}
 ];

@@ -5,7 +5,7 @@ var template = "<article>\n\
 	<ul>\n\
 	<li><span>course-Price:</span> <strong> price</strong></li>\n\
 	<li><span>Topicd:</span> topic</a></li>\n\
-	<li><span>Website:</span> <a href='http://WEBSITE/'>WEBSITE</a></li>\n\
+	<li><span>ratingss:</span> rating</a></li>\n\
 	<li><span>GitHub:</span> <a href='https://GITHUB'>GITHUB</a></li>\n\
 	\n\
 	</ul>\n\
@@ -17,7 +17,7 @@ for(var i=0; i<games.length; i++) {
 		.replace(/NAME/g,games[i].name)
 		.replace(/price/g,games[i].price)
 		.replace(/topic/g,games[i].topic)
-		.replace(/WEBSITE/g,games[i].website)
+		.replace(/rating/g,games[i].rating)
 		.replace(/GITHUB/g,games[i].github);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
