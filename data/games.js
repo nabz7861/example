@@ -2,7 +2,7 @@ var games = [
 	{
 		slug: 'course1',
 		name: 'course1',
-		author: 'Zosia and Bartek',
+		price: '£3',
 		twitter: 'bartaz',
 		website: '',
 		github: 'github.com/bartaz/lost-in-cyberspace'
