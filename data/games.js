@@ -5,7 +5,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		github: 'github.com/bartaz/lost-in-cyberspace'
+		locate: 'hendon'
 	},
 	{
 		slug: 'course2',
@@ -13,7 +13,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		github: 'github.com/Platane/js13k-2017'
+        locate: 'hendon'
 	},
 	{
 		slug: 'course3',
