@@ -1,7 +1,7 @@
 self.importScripts('data/games.js');
 
 // Files to cache
-var cacheName = 'js13kPWA-v1';
+var cacheName = 'firstcatch';
 var appShellFiles = [
   '/example/',
   '/example/index.html',
@@ -11,7 +11,7 @@ var appShellFiles = [
   '/example/fonts/graduate.ttf',
   '/example/fonts/graduate.woff',
   '/example/favicon.ico',
-  //'/example/js13kgames.png',
+  '/example/img/js13kgames.png',
   '/example/img/bg.png',
   '/example/icons/icon-32.png',
   '/example/icons/icon-64.png',
