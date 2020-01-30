@@ -4,8 +4,14 @@ var template = "<article>\n\
 	<h3>NAME</h3>\n\
 	<ul>\n\
 	<li><span>course-Price:</span> <strong> price</strong></li>\n\
-	<li><span>Twitter:</span> <a href='https://twitter.com/TWITTER'>@TWITTER</a></li>\n\
-	<li><span>Website:</span> <a href='http://WEBSITE/'>WEBSITE</a></li>\n\
+
+
+<li><span>course-topic:</span> <strong> topic</strong></li>\n\
+
+<li><span>course-location:</span> <strong> location</strong></li>\n\
+
+
+
 	<li><span>GitHub:</span> <a href='https://GITHUB'>GITHUB</a></li>\n\
 	\n\
 	</ul>\n\
@@ -16,8 +22,8 @@ for(var i=0; i<games.length; i++) {
 		.replace(/SLUG/g,games[i].slug)
 		.replace(/NAME/g,games[i].name)
 		.replace(/price/g,games[i].price)
-		.replace(/TWITTER/g,games[i].twitter)
-		.replace(/WEBSITE/g,games[i].website)
+		.replace(/topic/g,games[i].topic)
+		.replace(/location/g,games[i].location)
 		.replace(/GITHUB/g,games[i].github);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
