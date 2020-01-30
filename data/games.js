@@ -5,7 +5,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		review: 'github.com/bartaz/lost-in-cyberspace'
 	},
 	{
 		slug: 'course2',
@@ -13,7 +13,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/Platane/js13k-2017'
 	},
 	{
 		slug: 'course3',
@@ -21,7 +21,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/captainpainway/coconutty'
 	},
 	{
 		slug: 'course4',
@@ -29,7 +29,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/mguinea/lost-pacman'
 	},
 	{
 		slug: 'course5',
@@ -37,7 +37,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/BoldBigflank/js13k-polyhedron'
 	},
 	{
 		slug: 'course6',
@@ -45,7 +45,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/madmarcel/js13k2017'
 	},
 	{
 		slug: 'course7',
@@ -53,7 +53,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/sorskoot/js13kgames_2017_Lost'
 	},
 	{
 		slug: 'course8',
@@ -61,7 +61,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/nylki/shifted-dimensions'
 	},
 	{
 		slug: 'course9',
@@ -69,7 +69,7 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/theProgrammerJack/js13k2017'
 	},
 	
 	{
@@ -78,6 +78,6 @@ var games = [
 		price: '£3',
 		topic: 'maths',
 		location: 'hendon',
-		review: '5'
+		github: 'github.com/karanganesan/Lost_in_Metaverse'
 	}
 ];

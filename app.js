@@ -3,13 +3,15 @@ var template = "<article>\n\
 	<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>\n\
 	<h3>NAME</h3>\n\
 	<ul>\n\
-<li><span>Course-Price:</span> <strong> price</strong></li>\n\
+	<li><span>Course-Price:</span> <strong> price</strong></li>\n\
 
 <li><span>Course-topic:</span> <strong> topic</strong></li>\n\
 
+
 <li><span>Course-location:</span> <strong> location</strong></li>\n\
 
-<li><span>Course-review:</span> <strong> review</strong></li>\n\
+	<li><span>GitHub:</span> <a href='https://GITHUB'>GITHUB</a></li>\n\
+
 
 	\n\
 	</ul>\n\
@@ -22,7 +24,7 @@ for(var i=0; i<games.length; i++) {
 		.replace(/price/g,games[i].price)
 		.replace(/topic/g,games[i].topic)
 		.replace(/location/g,games[i].location)
-		.replace(/review/g,games[i].review);
+		.replace(/review/g,games[i].);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
 };
