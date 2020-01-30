@@ -17,7 +17,7 @@ for(var i=0; i<games.length; i++) {
 		.replace(/NAME/g,games[i].name)
 		.replace(/price/g,games[i].price)
 		.replace(/topic/g,games[i].topic)
-		.replace(/WEBSITE/g,games[i].website)
+		.replace(/rating/g,games[i].rating)
 		.replace(/GITHUB/g,games[i].github);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
