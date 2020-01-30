@@ -6,7 +6,7 @@ var template = "<article>\n\
 	<li><span>course-Price:</span> <strong> price</strong></li>\n\
 	<li><span>courseTopic:</span> topic</a></li>\n\
 	<li><span>review:</span> rating</a></li>\n\
-	<li><span>loki</span> locate</a></li>\n\
+	<li><span>location</span> locate</a></li>\n\
 	\n\
 	</ul>\n\
 </article>";
