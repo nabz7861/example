@@ -4,8 +4,9 @@ var template = "<article>\n\
 	<h3>NAME</h3>\n\
 	<ul>\n\
 	<li><span>course-Price:</span> <strong> price</strong></li>\n\
-	<li><span>Topicd:</span> topic</a></li>\n\
-	<li><span>ratingss:</span> rating</a></li>\n\
+	<li><span>Course-Topic:</span> topic</a></li>\n\
+	<li><span>course-ratings:</span> rating</a></li>\n\
+
 	<li><span>GitHub:</span> <a href='https://GITHUB'>GITHUB</a></li>\n\
 	\n\
 	</ul>\n\
