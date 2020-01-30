@@ -44,7 +44,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "/pwa-examples-master/index.html",
+    "start_url": "/example/index.html",
     "display": "fullscreen",
     "theme_color": "#B12A34",
     "background_color": "#B12A34"
