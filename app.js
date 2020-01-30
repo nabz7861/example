@@ -3,10 +3,14 @@ var template = "<article>\n\
 	<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>\n\
 	<h3>NAME</h3>\n\
 	<ul>\n\
-	<li><span>course-Price:</span> <strong> price</strong></li>\n\
-	<li><span>Twitter:</span> <a href='https://twitter.com/TWITTER'>@TWITTER</a></li>\n\
-	<li><span>Website:</span> <a href='http://WEBSITE/'>WEBSITE</a></li>\n\
-	<li><span>GitHub:</span> <a href='https://GITHUB'>GITHUB</a></li>\n\
+<li><span>Course-Price:</span> <strong> price</strong></li>\n\
+
+<li><span>Course-topic:</span> <strong> topic</strong></li>\n\
+
+<li><span>Course-location:</span> <strong> location</strong></li>\n\
+
+<li><span>Course-review:</span> <strong> review</strong></li>\n\
+
 	\n\
 	</ul>\n\
 </article>";
@@ -16,9 +20,9 @@ for(var i=0; i<games.length; i++) {
 		.replace(/SLUG/g,games[i].slug)
 		.replace(/NAME/g,games[i].name)
 		.replace(/price/g,games[i].price)
-		.replace(/TWITTER/g,games[i].twitter)
-		.replace(/WEBSITE/g,games[i].website)
-		.replace(/GITHUB/g,games[i].github);
+		.replace(/topic/g,games[i].topic)
+		.replace(/location/g,games[i].location)
+		.replace(/review/g,games[i].review);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
 };
