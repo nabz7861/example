@@ -3,24 +3,52 @@ self.importScripts('data/games.js');
 // Files to cache
 var cacheName = 'js13kPWA-v1';
 var appShellFiles = [
-  '/pwa-examples/js13kpwa/',
-  '/pwa-examples/js13kpwa/index.html',
-  '/pwa-examples/js13kpwa/app.js',
-  '/pwa-examples/js13kpwa/style.css',
-  '/pwa-examples/js13kpwa/fonts/graduate.eot',
-  '/pwa-examples/js13kpwa/fonts/graduate.ttf',
-  '/pwa-examples/js13kpwa/fonts/graduate.woff',
-  '/pwa-examples/js13kpwa/favicon.ico',
-  '/pwa-examples/js13kpwa/img/js13kgames.png',
-  '/pwa-examples/js13kpwa/img/bg.png',
-  '/pwa-examples/js13kpwa/icons/icon-32.png',
-  '/pwa-examples/js13kpwa/icons/icon-64.png',
-  '/pwa-examples/js13kpwa/icons/icon-96.png',
-  '/pwa-examples/js13kpwa/icons/icon-128.png',
-  '/pwa-examples/js13kpwa/icons/icon-168.png',
-  '/pwa-examples/js13kpwa/icons/icon-192.png',
-  '/pwa-examples/js13kpwa/icons/icon-256.png',
-  '/pwa-examples/js13kpwa/icons/icon-512.png'
+  '/example/',
+  '/example/index.html',
+  '/example/app.js',
+  '/example/style.css',
+  '/example/fonts/graduate.eot',
+  '/example/fonts/graduate.ttf',
+  '/example/fonts/graduate.woff',
+  '/example/favicon.ico',
+  '/example/js13kgames.png',
+  '/example/img/bg.png',
+  '/example/icons/icon-32.png',
+  '/example/icons/icon-64.png',
+  '/example/icons/icon-96.png',
+  '/example/icons/icon-128.png',
+  '/example/icons/icon-168.png',
+  '/example/icons/icon-192.png',
+  '/example/icons/icon-256.png',
+  '/example/icons/icon-512.png'
+    
+//      '/pwa-examples/js13kpwa/',
+//  '/pwa-examples/js13kpwa/index.html',
+//  '/pwa-examples/js13kpwa/app.js',
+//  '/pwa-examples/js13kpwa/style.css',
+//  '/pwa-examples/js13kpwa/fonts/graduate.eot',
+//  '/pwa-examples/js13kpwa/fonts/graduate.ttf',
+//  '/pwa-examples/js13kpwa/fonts/graduate.woff',
+//  '/pwa-examples/js13kpwa/favicon.ico',
+//  '/pwa-examples/js13kpwa/img/js13kgames.png',
+//  '/pwa-examples/js13kpwa/img/bg.png',
+//  '/pwa-examples/js13kpwa/icons/icon-32.png',
+//  '/pwa-examples/js13kpwa/icons/icon-64.png',
+//  '/pwa-examples/js13kpwa/icons/icon-96.png',
+//  '/pwa-examples/js13kpwa/icons/icon-128.png',
+//  '/pwa-examples/js13kpwa/icons/icon-168.png',
+//  '/pwa-examples/js13kpwa/icons/icon-192.png',
+//  '/pwa-examples/js13kpwa/icons/icon-256.png',
+//  '/pwa-examples/js13kpwa/icons/icon-512.png'
+//    
+    
+    
+    
+    
+    
+    
+    
+    
 ];
 var gamesImages = [];
 for(var i=0; i<games.length; i++) {
