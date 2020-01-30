@@ -7,7 +7,7 @@ var template = "<article>\n\
 	<li><span>courseTopic:</span> topic</a></li>\n\
 	<li><span>review:</span> rating</a></li>\n\
 
-	<li><span>locatt:</span> location</a></li>\n\
+	<li><span>locatt:</span> locate</a></li>\n\
 	\n\
 	</ul>\n\
 </article>";
@@ -19,7 +19,7 @@ for(var i=0; i<games.length; i++) {
 		.replace(/price/g,games[i].price)
 		.replace(/topic/g,games[i].topic)
 		.replace(/rating/g,games[i].rating)
-		.replace(/location/g,games[i].location);
+		.replace(/locate/g,games[i].locate);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
 };
