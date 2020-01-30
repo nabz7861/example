@@ -5,7 +5,7 @@ var template = "<article>\n\
 	<ul>\n\
 	<li><span>course-Price:</span> <strong> price</strong></li>\n\
 	<li><span>Course-Topic:</span> topic</a></li>\n\
-	<li><span>course-ratin:</span> rating</a></li>\n\
+	<li><span>review:</span> rating</a></li>\n\
 
 	<li><span>GitHub:</span> <a href='https://GITHUB'>GITHUB</a></li>\n\
 	\n\
