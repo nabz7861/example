@@ -3,7 +3,7 @@ var template = "<article>\n\
 	<img src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='NAME'>\n\
 	<h3>#POS. NAME</h3>\n\
 	<ul>\n\
-	<li><span>course-Price:</span> <strong><a href='http://price/'>price</strong></li>\n\
+	<li><span>course-Price:</span> <strong><a href='http://course-price/'>price</strong></li>\n\
 	<li><span>Twitter:</span> <a href='https://twitter.com/TWITTER'>@TWITTER</a></li>\n\
 	<li><span>Website:</span> <a href='http://WEBSITE/'>WEBSITE</a></li>\n\
 	<li><span>GitHub:</span> <a href='https://GITHUB'>GITHUB</a></li>\n\
