@@ -19,7 +19,7 @@ for(var i=0; i<games.length; i++) {
 		.replace(/price/g,games[i].price)
 		.replace(/topic/g,games[i].topic)
 		.replace(/rating/g,games[i].rating)
-		.replace(/location/g,games[i].locate);
+		.replace(/location/g,games[i].location);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
 };

@@ -21,7 +21,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	},
 	{
 		slug: 'course4',
@@ -29,7 +29,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	},
 	{
 		slug: 'course5',
@@ -37,7 +37,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	},
 	{
 		slug: 'course6',
@@ -45,7 +45,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	},
 	{
 		slug: 'course7',
@@ -53,7 +53,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	},
 	{
 		slug: 'course8',
@@ -61,7 +61,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	},
 	{
 		slug: 'course9',
@@ -69,7 +69,7 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	},
 	
 	{
@@ -78,6 +78,6 @@ var games = [
 		price: '£3',
 		topic: 'math',
 		rating: '5',
-		locate: 'hendon'
+		location: 'hendon'
 	}
 ];
