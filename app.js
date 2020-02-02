@@ -11,14 +11,14 @@ var template = "<article>\n\
 	</ul>\n\
 </article>";
 var content = '';
-for(var i=0; i<games.length; i++) {
+for(var i=0; i<courses.length; i++) {
 	var entry = template.replace(/POS/g,(i+1))
-		.replace(/SLUG/g,games[i].slug)
-		.replace(/NAME/g,games[i].name)
-		.replace(/price/g,games[i].price)
-		.replace(/topic/g,games[i].topic)
-		.replace(/rating/g,games[i].rating)
-		.replace(/locate/g,games[i].locate);
+		.replace(/SLUG/g,courses[i].slug)
+		.replace(/NAME/g,courses[i].name)
+		.replace(/price/g,courses[i].price)
+		.replace(/topic/g,courses[i].topic)
+		.replace(/rating/g,courses[i].rating)
+		.replace(/locate/g,courses[i].locate);
 	entry = entry.replace('<a href=\'http:///\'></a>','-');
 	content += entry;
 };
@@ -41,9 +41,9 @@ button.addEventListener('click', function(e) {
 
 // Setting up random Notification
 function randomNotification() {
-	var randomItem = Math.floor(Math.random()*games.length);
-	var notifTitle = games[randomItem].name;
-	var notifBody = 'This will cost you '+games[randomItem].price+'.';
+	var randomItem = Math.floor(Math.random()*courses.length);
+	var notifTitle = courses[randomItem].name;
+	var notifBody = 'This will cost you '+courses[randomItem].price+'.';
 	var notifImg = 'data/img/'+games[randomItem].slug+'.jpg';
 	var options = {
 		body: notifBody,

@@ -1,4 +1,4 @@
-self.importScripts('data/games.js');
+self.importScripts('data/courses.js');
 
 // Files to cache
 var cacheName = 'firstcatch';
@@ -7,9 +7,9 @@ var appShellFiles = [
   '/example/index.html',
   '/example/app.js',
   '/example/style.css',
-  '/example/appdata/graduate.eot',
-  '/example/appdata/graduate.ttf',
-  '/example/appdata/graduate.woff',
+  '/example/fonts/graduate.eot',
+  '/example/fonts/graduate.ttf',
+  '/example/fonts/graduate.woff',
   '/example/favicon.ico',
   '/example/images/icon.png',
   '/example/images/bg.png',
@@ -30,11 +30,11 @@ var appShellFiles = [
     
     
 ];
-var gamesImages = [];
-for(var i=0; i<games.length; i++) {
-  gamesImages.push('data/img/'+games[i].slug+'.jpg');
+var coursesImages = [];
+for(var i=0; i<courses.length; i++) {
+  coursesImages.push('data/img/'+courses[i].slug+'.jpg');
 }
-var contentToCache = appShellFiles.concat(gamesImages);
+var contentToCache = appShellFiles.concat(coursesImages);
 
 // Installing Service Worker
 self.addEventListener('install', function(e) {

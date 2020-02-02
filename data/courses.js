@@ -1,4 +1,4 @@
-var games = [
+var courses = [
 	{
 		slug: 'course1',
 		name: 'course1',
