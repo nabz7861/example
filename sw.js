@@ -7,18 +7,20 @@ var appShellFiles = [
   '/example/index.html',
   '/example/app.js',
   '/example/style.css',
-
+  '/example/appdata/graduate.eot',
+  '/example/appdata/graduate.ttf',
+  '/example/appdata/graduate.woff',
   '/example/favicon.ico',
-  '/example/img/icon.png',
-  '/example/img/bg.png',
-  '/example/icons/icon-32.png',
-  '/example/icons/icon-64.png',
-  '/example/icons/icon-96.png',
-  '/example/icons/icon-128.png',
-  '/example/icons/icon-168.png',
-  '/example/icons/icon-192.png',
-  '/example/icons/icon-256.png',
-  '/example/icons/icon-512.png'
+  '/example/images/icon.png',
+  '/example/images/bg.png',
+  '/example/otherfavicons/icon-32.png',
+  '/example/otherfavicons/icon-64.png',
+  '/example/otherfavicons/icon-96.png',
+  '/example/otherfavicons/icon-128.png',
+  '/example/otherfavicons/icon-168.png',
+  '/example/otherfavicons/icon-192.png',
+  '/example/otherfavicons/icon-256.png',
+  '/example/otherfavicons/icon-512.png'
     
 
     
