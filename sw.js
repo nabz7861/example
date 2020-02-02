@@ -7,9 +7,7 @@ var appShellFiles = [
   '/example/index.html',
   '/example/app.js',
   '/example/style.css',
-  '/example/fonts/graduate.eot',
-  '/example/fonts/graduate.ttf',
-  '/example/fonts/graduate.woff',
+
   '/example/favicon.ico',
   '/example/img/icon.png',
   '/example/img/bg.png',
