@@ -44,7 +44,7 @@ function randomNotification() {
 	var randomItem = Math.floor(Math.random()*courses.length);
 	var notifTitle = courses[randomItem].name;
 	var notifBody = 'This will cost you '+courses[randomItem].price+'.';
-	var notifImg = 'data/img/'+games[randomItem].slug+'.jpg';
+	var notifImg = 'data/img/'+courses[randomItem].slug+'.jpg';
 	var options = {
 		body: notifBody,
 		icon: notifImg
